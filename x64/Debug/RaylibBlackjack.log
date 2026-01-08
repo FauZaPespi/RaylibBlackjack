@@ -1,0 +1,8 @@
+﻿  RaylibBlackjack.cpp
+Z:\RaylibBlackjack\RaylibBlackjack.cpp(62,79): warning C4244: 'argument' : conversion de 'const float' en 'int', perte possible de données
+Z:\RaylibBlackjack\RaylibBlackjack.cpp(62,67): warning C4244: 'argument' : conversion de 'const float' en 'int', perte possible de données
+Z:\RaylibBlackjack\RaylibBlackjack.cpp(62,55): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+Z:\RaylibBlackjack\RaylibBlackjack.cpp(62,39): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+Z:\RaylibBlackjack\RaylibBlackjack.cpp(63,94): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+Z:\RaylibBlackjack\RaylibBlackjack.cpp(63,57): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+  RaylibBlackjack.vcxproj -> Z:\RaylibBlackjack\x64\Debug\RaylibBlackjack.exe
