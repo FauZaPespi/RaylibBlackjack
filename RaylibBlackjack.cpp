@@ -52,7 +52,7 @@ int main()
 	int croupierTotal = 0;
 	int currentWinner = -1;
 
-	InitWindow(screenWidth, screenHeight, "Blackjack Raylib - FauZa v0.0.1");
+	InitWindow(screenWidth, screenHeight, "Blackjack Raylib - FauZa v0.0.2");
 	SetTargetFPS(60);
 	while (!WindowShouldClose())
 	{
