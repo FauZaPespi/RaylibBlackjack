@@ -70,7 +70,7 @@ int main()
 				val
 			};
 
-			croupierCardsIndex = 1;
+			croupierCardsIndex++;
 			croupierTotal += val;
 		}
 
@@ -136,8 +136,9 @@ int main()
 		if (hasStand)
 			DrawText(winnerTitle.c_str(), (screenWidth/2)-75, 10 + (20 * 5), 50, LIGHTGRAY);
 
-		for (Card card : cards)
+		for (int i = 0; i < cardsIndex; i++)
 		{
+			Card card = cards[i];
 			char text[3] = { card.title, '\0' };
 			DrawRectangle(card.cardPos.x, card.cardPos.y, cardSize.x, cardSize.y, MAROON);
 			DrawText(text, card.cardPos.x + (cardSize.x / 2) - 5, card.cardPos.y + (cardSize.y / 2) - 5, 20, LIGHTGRAY);
@@ -145,8 +146,9 @@ int main()
 			DrawText(valueStr.c_str(), card.cardPos.x + (cardSize.x / 2) - 5, card.cardPos.y + (cardSize.y / 2) - 25, 10, LIGHTGRAY);
 		}
 
-		for (Card card : croupierCards)
+		for (int i = 0; i < croupierCardsIndex; i++)
 		{
+			Card card = croupierCards[i];
 			char text[3] = { card.title, '\0' };
 			DrawRectangle(card.cardPos.x, card.cardPos.y, cardSize.x, cardSize.y, MAROON);
 			DrawText(text, card.cardPos.x + (cardSize.x / 2) - 5, card.cardPos.y + (cardSize.y / 2) - 5, 20, LIGHTGRAY);
